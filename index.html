@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicharrones</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">CHICHARRONES</div>
+      <div class="social">
+        <a href="#"><img src="./assets/whatsapp.svg" alt="" /></a>
+        <a href="#"><img src="./assets/facebook.svg" alt="" /></a>
+        <a href="#"><img src="./assets/instagram.svg" alt="" /></a>
+      </div>
+    </header>
+    <main>
+      <div class="bar"></div>
+      <h1>Have you tried our services?</h1>
+      <p>
+        Cuban food with great quality. Try now our new restaurant. We also have
+        a catering service. People have tried, and <strong>you</strong>?
+      </p>
+    </main>
+    <footer>
+      <p id="contactUsLabel" class="contactButton">Contact us</p>
+      <button id="contactButton" onClick="toogleContact()">
+        <img src="./assets/Group 25.svg" alt="" />
+      </button>
+    </footer>
+
+    <section id="contact" class="contact off">
+      <header>
+        <div class="logo" onClick="toogleContact()">CHICHARRONES</div>
+        <div class="social">
+          <a href="#"><img src="./assets/whatsapp.svg" alt="" /></a>
+          <a href="#"><img src="./assets/facebook.svg" alt="" /></a>
+          <a href="#"><img src="./assets/instagram.svg" alt="" /></a>
+        </div>
+      </header>
+      <p>Fill out the form below. <br /><strong>Send us a message!</strong></p>
+
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+      <button>SEND MESSAGE</button>
+
+      <span
+        >Cooked with Cooked by <strong>Minkissimo - Design </strong> and
+        <strong>goustkor - Code</strong> | @2022</span
+      >
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
